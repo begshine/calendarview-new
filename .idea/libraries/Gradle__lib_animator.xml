@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: lib_animator">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/calendarview/libs/lib_animator.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

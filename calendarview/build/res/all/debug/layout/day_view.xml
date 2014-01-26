@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:id="@+id/dayview_text_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:includeFontPadding="false"
+        android:singleLine="true"
+        android:text="12"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dayview_text_solar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/dayview_text_day"
+        android:layout_alignParentRight="true"
+        android:includeFontPadding="false"
+        android:singleLine="true"
+        android:text="初二"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/dayview_text_desc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/dayview_text_day"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:maxLines="2"
+        android:text="中华人民共和国中华人民共和国"
+        android:textSize="10sp" />
+
+</merge><!-- From: file:/home/javen/AndroidStudioProjects/calendarview/calendarview/src/main/res/layout/day_view.xml -->

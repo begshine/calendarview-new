@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/calendarview.iml" filepath="$PROJECT_DIR$/calendarview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calendarview/calendarview-calendarview.iml" filepath="$PROJECT_DIR$/calendarview/calendarview-calendarview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tabbedHorizontalPagerDemo/tabbedHorizontalPagerDemo.iml" filepath="$PROJECT_DIR$/tabbedHorizontalPagerDemo/tabbedHorizontalPagerDemo.iml" />
+    </modules>
+  </component>
+</project>
+

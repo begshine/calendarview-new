@@ -1,0 +1,28 @@
+<!-- From: file:/home/javen/AndroidStudioProjects/calendarview/calendarview/src/main/AndroidManifest.xml -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.example.calendarview">
+
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="18"/>
+
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@android:style/Theme.Translucent">
+        <activity android:label="@string/app_name" android:name="com.example.calendarview.MainActivity" android:theme="@android:style/Theme.Translucent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.calendarview.SlideActivity" android:theme="@android:style/Theme.Translucent">
+        </activity>
+        <!-- From: file:/home/javen/AndroidStudioProjects/calendarview/calendarview/build/exploded-bundles/CalendarviewTabbedHorizontalPagerDemoUnspecified.aar/AndroidManifest.xml -->
+        <activity android:label="@string/app_name" android:name="com.github.ysamlan.horizontalpager.TabbedHorizontalPagerDemo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="com.github.ysamlan.horizontalpager.HorizontalPagerDemo"/>
+        <!-- From: file:/home/javen/AndroidStudioProjects/calendarview/calendarview/src/main/AndroidManifest.xml -->
+        
+    </application>
+
+</manifest>
